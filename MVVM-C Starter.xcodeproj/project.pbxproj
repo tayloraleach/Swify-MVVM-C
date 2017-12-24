@@ -19,8 +19,7 @@
 		34624AB61FEF1A0000AC270B /* AppPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34624AB51FEF1A0000AC270B /* AppPresenter.swift */; };
 		34624AB81FEF1E7C00AC270B /* RootControllerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34624AB71FEF1E7C00AC270B /* RootControllerViewModel.swift */; };
 		34624ABA1FEF1EFB00AC270B /* SearchNavigationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34624AB91FEF1EFB00AC270B /* SearchNavigationCoordinator.swift */; };
-		34624ABC1FEF1F6B00AC270B /* HomeLayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34624ABB1FEF1F6B00AC270B /* HomeLayoutViewController.swift */; };
-		34624ABE1FEF1F7A00AC270B /* HomeTabsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34624ABD1FEF1F7A00AC270B /* HomeTabsViewController.swift */; };
+		34624ABC1FEF1F6B00AC270B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34624ABB1FEF1F6B00AC270B /* HomeViewController.swift */; };
 		34624AC01FEF1F9800AC270B /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34624ABF1FEF1F9800AC270B /* SearchViewController.swift */; };
 		34624AC21FEF1FA200AC270B /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34624AC11FEF1FA200AC270B /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
@@ -40,8 +39,7 @@
 		34624AB51FEF1A0000AC270B /* AppPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppPresenter.swift; sourceTree = "<group>"; };
 		34624AB71FEF1E7C00AC270B /* RootControllerViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootControllerViewModel.swift; sourceTree = "<group>"; };
 		34624AB91FEF1EFB00AC270B /* SearchNavigationCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchNavigationCoordinator.swift; sourceTree = "<group>"; };
-		34624ABB1FEF1F6B00AC270B /* HomeLayoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeLayoutViewController.swift; sourceTree = "<group>"; };
-		34624ABD1FEF1F7A00AC270B /* HomeTabsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabsViewController.swift; sourceTree = "<group>"; };
+		34624ABB1FEF1F6B00AC270B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		34624ABF1FEF1F9800AC270B /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		34624AC11FEF1FA200AC270B /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -80,7 +78,6 @@
 				34624A921FEEED7E00AC270B /* Generic Base Classes */,
 				34624A931FEEED9500AC270B /* Resources */,
 				34624A951FEEEDB300AC270B /* Supporting Files */,
-				34624A761FEEECA500AC270B /* AppDelegate.swift */,
 				34624A7A1FEEECA500AC270B /* Main.storyboard */,
 				34624A7F1FEEECA500AC270B /* LaunchScreen.storyboard */,
 			);
@@ -100,6 +97,7 @@
 		34624A891FEEECDB00AC270B /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				34624A761FEEECA500AC270B /* AppDelegate.swift */,
 				34624A8B1FEEED1400AC270B /* Constants */,
 				34624A8A1FEEECFB00AC270B /* Extensions */,
 			);
@@ -205,7 +203,7 @@
 		34624A961FEEEDFB00AC270B /* Presenters */ = {
 			isa = PBXGroup;
 			children = (
-				34624A981FEEEE1F00AC270B /* Auth */,
+				34624A981FEEEE1F00AC270B /* Authorization */,
 				34624A971FEEEE0900AC270B /* Coordinators */,
 				34624AB01FEF18BD00AC270B /* RootPresenter.swift */,
 				34624AB51FEF1A0000AC270B /* AppPresenter.swift */,
@@ -224,11 +222,11 @@
 			path = Coordinators;
 			sourceTree = "<group>";
 		};
-		34624A981FEEEE1F00AC270B /* Auth */ = {
+		34624A981FEEEE1F00AC270B /* Authorization */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = Auth;
+			path = Authorization;
 			sourceTree = "<group>";
 		};
 		34624A991FEEEE3900AC270B /* View Controllers */ = {
@@ -247,8 +245,7 @@
 		34624A9A1FEEEE4C00AC270B /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				34624ABB1FEF1F6B00AC270B /* HomeLayoutViewController.swift */,
-				34624ABD1FEF1F7A00AC270B /* HomeTabsViewController.swift */,
+				34624ABB1FEF1F6B00AC270B /* HomeViewController.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -301,8 +298,6 @@
 		34624AA21FEEEED300AC270B /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				34624AA91FEEEF2700AC270B /* TableView Footers */,
-				34624AA81FEEEF2000AC270B /* TableView Headers */,
 				34624AA71FEEEF1000AC270B /* TableView Cells */,
 				34624AA61FEEEEF900AC270B /* Welcome & Setup */,
 				34624AA51FEEEEF000AC270B /* Abstract */,
@@ -345,20 +340,6 @@
 			children = (
 			);
 			path = "TableView Cells";
-			sourceTree = "<group>";
-		};
-		34624AA81FEEEF2000AC270B /* TableView Headers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "TableView Headers";
-			sourceTree = "<group>";
-		};
-		34624AA91FEEEF2700AC270B /* TableView Footers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "TableView Footers";
 			sourceTree = "<group>";
 		};
 		34624AB21FEF18E600AC270B /* Coordinator */ = {
@@ -442,9 +423,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				34624AB11FEF18BD00AC270B /* RootPresenter.swift in Sources */,
-				34624ABE1FEF1F7A00AC270B /* HomeTabsViewController.swift in Sources */,
 				34624ABA1FEF1EFB00AC270B /* SearchNavigationCoordinator.swift in Sources */,
-				34624ABC1FEF1F6B00AC270B /* HomeLayoutViewController.swift in Sources */,
+				34624ABC1FEF1F6B00AC270B /* HomeViewController.swift in Sources */,
 				34624AAB1FEF187B00AC270B /* RootNavigationCoordinator.swift in Sources */,
 				34624AB81FEF1E7C00AC270B /* RootControllerViewModel.swift in Sources */,
 				34624AAF1FEF189C00AC270B /* SettingsNavigationCoordinator.swift in Sources */,

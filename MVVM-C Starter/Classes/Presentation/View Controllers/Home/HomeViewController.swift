@@ -1,5 +1,5 @@
 //
-//  HomeTabsViewController.swift
+//  HomeLayoutViewController.swift
 //  MVVM-C Starter
 //
 //  Created by Taylor on 2017-12-23.
@@ -8,14 +8,13 @@
 
 import UIKit
 
-final class HomeTabsViewController: UIViewController {
+class HomeViewController: UIViewController {
     
-
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        view.backgroundColor = .red
-        
+
+        self.title = "Home"
+        view.backgroundColor = .white
     }
 
 }

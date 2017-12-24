@@ -16,21 +16,19 @@ final class HomeNavigationCoordinator: Coordinator, TabCoordinatorType, Navigati
     }
     
     private var rootController: UINavigationController!
-    private var homeController: HomeLayoutViewController!
-    private let tabsController: HomeTabsViewController
+    private var homeController: HomeViewController!
     
     let tabBarItem = UITabBarItem(tabBarSystemItem: UITabBarSystemItem.featured, tag: 1)
     
     override init() {
-        tabsController = HomeTabsViewController()
         super.init()
-        homeController = HomeLayoutViewController(tabsViewController: tabsController)
+        homeController = HomeViewController()
         rootController = UINavigationController(rootViewController: homeController)
         rootController.tabBarItem = tabBarItem
     }
-    
+
     func performTransition(_ transition: TransitionType) {
-        
+        // Transition to a deeper view
     }
 
 }

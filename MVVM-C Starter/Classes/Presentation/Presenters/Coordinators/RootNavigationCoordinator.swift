@@ -98,7 +98,7 @@ extension UITabBarController {
             return tab(for: navController.viewControllers.first!)
         }
         switch viewController {
-        case is HomeLayoutViewController:
+        case is HomeViewController:
             return .home
         case is SearchViewController:
             return .search
@@ -113,7 +113,7 @@ extension UITabBarController {
         guard let viewController = viewControllers?.filter({ (viewController) -> Bool in
             switch tab {
             case .home:
-                return contains(viewController: viewController, of: HomeLayoutViewController.self)
+                return contains(viewController: viewController, of: HomeViewController.self)
             case .search:
                 return contains(viewController: viewController, of: SearchViewController.self)
             case .settings:
