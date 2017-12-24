@@ -8,20 +8,42 @@
 
 /* Begin PBXBuildFile section */
 		34624A771FEEECA500AC270B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34624A761FEEECA500AC270B /* AppDelegate.swift */; };
-		34624A791FEEECA500AC270B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34624A781FEEECA500AC270B /* ViewController.swift */; };
 		34624A7C1FEEECA500AC270B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34624A7A1FEEECA500AC270B /* Main.storyboard */; };
 		34624A7E1FEEECA500AC270B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34624A7D1FEEECA500AC270B /* Assets.xcassets */; };
 		34624A811FEEECA500AC270B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34624A7F1FEEECA500AC270B /* LaunchScreen.storyboard */; };
+		34624AAB1FEF187B00AC270B /* RootNavigationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34624AAA1FEF187B00AC270B /* RootNavigationCoordinator.swift */; };
+		34624AAD1FEF189300AC270B /* HomeNavigationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34624AAC1FEF189300AC270B /* HomeNavigationCoordinator.swift */; };
+		34624AAF1FEF189C00AC270B /* SettingsNavigationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34624AAE1FEF189C00AC270B /* SettingsNavigationCoordinator.swift */; };
+		34624AB11FEF18BD00AC270B /* RootPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34624AB01FEF18BD00AC270B /* RootPresenter.swift */; };
+		34624AB41FEF18F000AC270B /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34624AB31FEF18F000AC270B /* Coordinator.swift */; };
+		34624AB61FEF1A0000AC270B /* AppPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34624AB51FEF1A0000AC270B /* AppPresenter.swift */; };
+		34624AB81FEF1E7C00AC270B /* RootControllerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34624AB71FEF1E7C00AC270B /* RootControllerViewModel.swift */; };
+		34624ABA1FEF1EFB00AC270B /* SearchNavigationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34624AB91FEF1EFB00AC270B /* SearchNavigationCoordinator.swift */; };
+		34624ABC1FEF1F6B00AC270B /* HomeLayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34624ABB1FEF1F6B00AC270B /* HomeLayoutViewController.swift */; };
+		34624ABE1FEF1F7A00AC270B /* HomeTabsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34624ABD1FEF1F7A00AC270B /* HomeTabsViewController.swift */; };
+		34624AC01FEF1F9800AC270B /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34624ABF1FEF1F9800AC270B /* SearchViewController.swift */; };
+		34624AC21FEF1FA200AC270B /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34624AC11FEF1FA200AC270B /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		34624A731FEEECA500AC270B /* MVVM-C Starter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVVM-C Starter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		34624A761FEEECA500AC270B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		34624A781FEEECA500AC270B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		34624A7B1FEEECA500AC270B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		34624A7D1FEEECA500AC270B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		34624A801FEEECA500AC270B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		34624A821FEEECA500AC270B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34624AAA1FEF187B00AC270B /* RootNavigationCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootNavigationCoordinator.swift; sourceTree = "<group>"; };
+		34624AAC1FEF189300AC270B /* HomeNavigationCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeNavigationCoordinator.swift; sourceTree = "<group>"; };
+		34624AAE1FEF189C00AC270B /* SettingsNavigationCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsNavigationCoordinator.swift; sourceTree = "<group>"; };
+		34624AB01FEF18BD00AC270B /* RootPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootPresenter.swift; sourceTree = "<group>"; };
+		34624AB31FEF18F000AC270B /* Coordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		34624AB51FEF1A0000AC270B /* AppPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppPresenter.swift; sourceTree = "<group>"; };
+		34624AB71FEF1E7C00AC270B /* RootControllerViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootControllerViewModel.swift; sourceTree = "<group>"; };
+		34624AB91FEF1EFB00AC270B /* SearchNavigationCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchNavigationCoordinator.swift; sourceTree = "<group>"; };
+		34624ABB1FEF1F6B00AC270B /* HomeLayoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeLayoutViewController.swift; sourceTree = "<group>"; };
+		34624ABD1FEF1F7A00AC270B /* HomeTabsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabsViewController.swift; sourceTree = "<group>"; };
+		34624ABF1FEF1F9800AC270B /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		34624AC11FEF1FA200AC270B /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +76,297 @@
 		34624A751FEEECA500AC270B /* MVVM-C Starter */ = {
 			isa = PBXGroup;
 			children = (
+				34624A881FEEECCB00AC270B /* Classes */,
+				34624A921FEEED7E00AC270B /* Generic Base Classes */,
+				34624A931FEEED9500AC270B /* Resources */,
+				34624A951FEEEDB300AC270B /* Supporting Files */,
 				34624A761FEEECA500AC270B /* AppDelegate.swift */,
-				34624A781FEEECA500AC270B /* ViewController.swift */,
 				34624A7A1FEEECA500AC270B /* Main.storyboard */,
-				34624A7D1FEEECA500AC270B /* Assets.xcassets */,
 				34624A7F1FEEECA500AC270B /* LaunchScreen.storyboard */,
-				34624A821FEEECA500AC270B /* Info.plist */,
 			);
 			path = "MVVM-C Starter";
+			sourceTree = "<group>";
+		};
+		34624A881FEEECCB00AC270B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				34624A911FEEED6A00AC270B /* Presentation */,
+				34624A8C1FEEED2200AC270B /* Data */,
+				34624A891FEEECDB00AC270B /* Core */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		34624A891FEEECDB00AC270B /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				34624A8B1FEEED1400AC270B /* Constants */,
+				34624A8A1FEEECFB00AC270B /* Extensions */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		34624A8A1FEEECFB00AC270B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		34624A8B1FEEED1400AC270B /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		34624A8C1FEEED2200AC270B /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				34624A901FEEED4C00AC270B /* Models */,
+				34624A8F1FEEED4100AC270B /* API */,
+				34624A8E1FEEED3400AC270B /* Data Providers */,
+				34624A8D1FEEED2A00AC270B /* Data Sources */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		34624A8D1FEEED2A00AC270B /* Data Sources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Data Sources";
+			sourceTree = "<group>";
+		};
+		34624A8E1FEEED3400AC270B /* Data Providers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Data Providers";
+			sourceTree = "<group>";
+		};
+		34624A8F1FEEED4100AC270B /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		34624A901FEEED4C00AC270B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		34624A911FEEED6A00AC270B /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				34624AA21FEEEED300AC270B /* Views */,
+				34624AA11FEEEECB00AC270B /* View Models */,
+				34624A991FEEEE3900AC270B /* View Controllers */,
+				34624A961FEEEDFB00AC270B /* Presenters */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		34624A921FEEED7E00AC270B /* Generic Base Classes */ = {
+			isa = PBXGroup;
+			children = (
+				34624AB21FEF18E600AC270B /* Coordinator */,
+			);
+			path = "Generic Base Classes";
+			sourceTree = "<group>";
+		};
+		34624A931FEEED9500AC270B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				34624A941FEEED9D00AC270B /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		34624A941FEEED9D00AC270B /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				34624A7D1FEEECA500AC270B /* Assets.xcassets */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		34624A951FEEEDB300AC270B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				34624A821FEEECA500AC270B /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		34624A961FEEEDFB00AC270B /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+				34624A981FEEEE1F00AC270B /* Auth */,
+				34624A971FEEEE0900AC270B /* Coordinators */,
+				34624AB01FEF18BD00AC270B /* RootPresenter.swift */,
+				34624AB51FEF1A0000AC270B /* AppPresenter.swift */,
+			);
+			path = Presenters;
+			sourceTree = "<group>";
+		};
+		34624A971FEEEE0900AC270B /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				34624AB91FEF1EFB00AC270B /* SearchNavigationCoordinator.swift */,
+				34624AAA1FEF187B00AC270B /* RootNavigationCoordinator.swift */,
+				34624AAC1FEF189300AC270B /* HomeNavigationCoordinator.swift */,
+				34624AAE1FEF189C00AC270B /* SettingsNavigationCoordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		34624A981FEEEE1F00AC270B /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		34624A991FEEEE3900AC270B /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				34624AA01FEEEEA500AC270B /* Abstract */,
+				34624A9E1FEEEE6A00AC270B /* Sign In & Sign Up */,
+				34624A9D1FEEEE6000AC270B /* Welcome & Setup */,
+				34624A9C1FEEEE5A00AC270B /* Search */,
+				34624A9B1FEEEE5500AC270B /* Settings */,
+				34624A9A1FEEEE4C00AC270B /* Home */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		34624A9A1FEEEE4C00AC270B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				34624ABB1FEF1F6B00AC270B /* HomeLayoutViewController.swift */,
+				34624ABD1FEF1F7A00AC270B /* HomeTabsViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		34624A9B1FEEEE5500AC270B /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				34624AC11FEF1FA200AC270B /* SettingsViewController.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		34624A9C1FEEEE5A00AC270B /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				34624ABF1FEF1F9800AC270B /* SearchViewController.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		34624A9D1FEEEE6000AC270B /* Welcome & Setup */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Welcome & Setup";
+			sourceTree = "<group>";
+		};
+		34624A9E1FEEEE6A00AC270B /* Sign In & Sign Up */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Sign In & Sign Up";
+			sourceTree = "<group>";
+		};
+		34624AA01FEEEEA500AC270B /* Abstract */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Abstract;
+			sourceTree = "<group>";
+		};
+		34624AA11FEEEECB00AC270B /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				34624AB71FEF1E7C00AC270B /* RootControllerViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		34624AA21FEEEED300AC270B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				34624AA91FEEEF2700AC270B /* TableView Footers */,
+				34624AA81FEEEF2000AC270B /* TableView Headers */,
+				34624AA71FEEEF1000AC270B /* TableView Cells */,
+				34624AA61FEEEEF900AC270B /* Welcome & Setup */,
+				34624AA51FEEEEF000AC270B /* Abstract */,
+				34624AA41FEEEEEB00AC270B /* Settings */,
+				34624AA31FEEEEE300AC270B /* Home */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		34624AA31FEEEEE300AC270B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		34624AA41FEEEEEB00AC270B /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		34624AA51FEEEEF000AC270B /* Abstract */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Abstract;
+			sourceTree = "<group>";
+		};
+		34624AA61FEEEEF900AC270B /* Welcome & Setup */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Welcome & Setup";
+			sourceTree = "<group>";
+		};
+		34624AA71FEEEF1000AC270B /* TableView Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "TableView Cells";
+			sourceTree = "<group>";
+		};
+		34624AA81FEEEF2000AC270B /* TableView Headers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "TableView Headers";
+			sourceTree = "<group>";
+		};
+		34624AA91FEEEF2700AC270B /* TableView Footers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "TableView Footers";
+			sourceTree = "<group>";
+		};
+		34624AB21FEF18E600AC270B /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				34624AB31FEF18F000AC270B /* Coordinator.swift */,
+			);
+			path = Coordinator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,8 +441,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34624A791FEEECA500AC270B /* ViewController.swift in Sources */,
+				34624AB11FEF18BD00AC270B /* RootPresenter.swift in Sources */,
+				34624ABE1FEF1F7A00AC270B /* HomeTabsViewController.swift in Sources */,
+				34624ABA1FEF1EFB00AC270B /* SearchNavigationCoordinator.swift in Sources */,
+				34624ABC1FEF1F6B00AC270B /* HomeLayoutViewController.swift in Sources */,
+				34624AAB1FEF187B00AC270B /* RootNavigationCoordinator.swift in Sources */,
+				34624AB81FEF1E7C00AC270B /* RootControllerViewModel.swift in Sources */,
+				34624AAF1FEF189C00AC270B /* SettingsNavigationCoordinator.swift in Sources */,
+				34624AC01FEF1F9800AC270B /* SearchViewController.swift in Sources */,
+				34624AC21FEF1FA200AC270B /* SettingsViewController.swift in Sources */,
 				34624A771FEEECA500AC270B /* AppDelegate.swift in Sources */,
+				34624AAD1FEF189300AC270B /* HomeNavigationCoordinator.swift in Sources */,
+				34624AB61FEF1A0000AC270B /* AppPresenter.swift in Sources */,
+				34624AB41FEF18F000AC270B /* Coordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +592,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5ZW9E583HA;
-				INFOPLIST_FILE = "MVVM-C Starter/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/MVVM-C Starter/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.taylorleach.MVVM-C-Starter";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -291,7 +607,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5ZW9E583HA;
-				INFOPLIST_FILE = "MVVM-C Starter/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/MVVM-C Starter/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.taylorleach.MVVM-C-Starter";
 				PRODUCT_NAME = "$(TARGET_NAME)";

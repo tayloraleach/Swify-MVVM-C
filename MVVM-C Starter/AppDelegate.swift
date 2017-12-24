@@ -12,11 +12,28 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    var appPresenter: AppPresenter!
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        // Perform global style changes on UI elements
+        customizeUserInterfaceElements()
+        
+        window = UIWindow(frame: UIScreen.main.bounds)
+        let navigationController = UINavigationController()
+        navigationController.setNavigationBarHidden(true, animated: false)
+        window?.rootViewController = navigationController
+        
+        appPresenter = AppPresenter(rootViewController: window!.rootViewController!)
+        
+        window?.makeKeyAndVisible()
+        
+        self.appPresenter.start()
         return true
+    }
+    
+    private func customizeUserInterfaceElements() {
+        // Custom UINavigationBar, UITabBar, etc...
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
