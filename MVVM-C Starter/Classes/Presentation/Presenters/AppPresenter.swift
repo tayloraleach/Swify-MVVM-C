@@ -21,36 +21,27 @@ class AppPresenter {
     }
     
     func start() {
-        // if signed in
-        showApp()
-        // showLoadScreen()
+        // if user is signed in
+        showApp() // or showLoadingScreen()
         // else
         // showOnboarding(animated: true)
     }
     
-    func showLoadScreen() {
+    func showLoadingScreen() {
         // create loading view controller if needed
-    }
-    
-    func showApp() {
-        let rootCoordinator = RootPresenter(rootViewController: self.rootViewController)
-        //rootCoordinator.delegate = self
-        self.childPresenters.add(rootCoordinator)
-        rootCoordinator.start(animated: true)
     }
     
     func showOnboarding(animated: Bool) {
         
     }
     
+    func showApp() {
+        let rootCoordinator = RootPresenter(rootViewController: self.rootViewController)
+        rootCoordinator.delegate = self
+        self.childPresenters.add(rootCoordinator)
+        rootCoordinator.start(animated: true)
+    }
 }
-
-// ++ Initial loading delegate methods
-// ...
-
-// ++ User onboard delegate methods
-// ...
-
 
 // Root presenter delegate methods
 extension AppPresenter: RootDelegate {
