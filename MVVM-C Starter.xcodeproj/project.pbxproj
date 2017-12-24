@@ -234,7 +234,6 @@
 			children = (
 				34624AA01FEEEEA500AC270B /* Abstract */,
 				34624A9E1FEEEE6A00AC270B /* Sign In & Sign Up */,
-				34624A9D1FEEEE6000AC270B /* Welcome & Setup */,
 				34624A9C1FEEEE5A00AC270B /* Search */,
 				34624A9B1FEEEE5500AC270B /* Settings */,
 				34624A9A1FEEEE4C00AC270B /* Home */,
@@ -264,13 +263,6 @@
 				34624ABF1FEF1F9800AC270B /* SearchViewController.swift */,
 			);
 			path = Search;
-			sourceTree = "<group>";
-		};
-		34624A9D1FEEEE6000AC270B /* Welcome & Setup */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "Welcome & Setup";
 			sourceTree = "<group>";
 		};
 		34624A9E1FEEEE6A00AC270B /* Sign In & Sign Up */ = {

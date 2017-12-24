@@ -27,13 +27,9 @@ class AppPresenter {
         // showOnboarding(animated: true)
     }
     
-    func showLoadingScreen() {
-        // create loading view controller if needed
-    }
-    
-    func showOnboarding(animated: Bool) {
-        
-    }
+    // create loading view controller if needed
+    func showLoadingScreen() { }
+    func showOnboarding(animated: Bool) { }
     
     func showApp() {
         let rootCoordinator = RootPresenter(rootViewController: self.rootViewController)
